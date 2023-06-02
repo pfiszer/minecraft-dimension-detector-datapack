@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:player_head",
+      "nbt": "{SkullOwner:{Id:[I;-31117697,-1343733406,-1184409522,900631920],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2ZlMmE0ZWI1MzM1MWVjNDkwOGQzY2Q2MWY0OTg2OTg0ZmMyMjEzMTIzNjFmMzE2NjQ0MTU2MTVkZmQwNWZjMiJ9fX0=\"}]}}}"
+    },
+    "title": "Pawek's Datapacks",
+    "frame": "challenge",
+    "description": [
+      {
+        "text": "All currently loaded datapacks made by Paweł \"Pawek\" Fiszer\n",
+        "color": "white"
+      },
+      {
+        "text": "pawel.laweczka.net/datapacks",
+        "color": "green"
+      }
+    ],
+    "background": "minecraft:textures/block/green_concrete.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

@@ -1,9 +1,12 @@
-team add in_overworld {"text":"OVERWORLD","color":"dark_green"}
-team add in_nether {"text":"NETHER","color":"dark_red"}
-team add in_end {"text":"END","color":"yellow"}
-team modify in_overworld seeFriendlyInvisibles false
-team modify in_nether seeFriendlyInvisibles false
-team modify in_end seeFriendlyInvisibles false
-team modify in_overworld color dark_green
-team modify in_nether color dark_red
-team modify in_end color yellow
+team add pawek.in_overworld {"text":"OVERWORLD","color":"dark_green"}
+team add pawek.in_nether {"text":"NETHER","color":"dark_red"}
+team add pawek.in_end {"text":"END","color":"yellow"}
+team modify pawek.in_overworld seeFriendlyInvisibles false
+team modify pawek.in_nether seeFriendlyInvisibles false
+team modify pawek.in_end seeFriendlyInvisibles false
+team modify pawek.in_overworld color dark_green
+team modify pawek.in_nether color dark_red
+team modify pawek.in_end color yellow
+
+scoreboard objectives add pawek.ds.optout trigger {"text":"Opt out of dimension tracking","color":"gold"}
+execute unless score pawek.ds.check pawek.ds.optout matches 0..1 run scoreboard players set pawek.ds.check pawek.ds.optout 0

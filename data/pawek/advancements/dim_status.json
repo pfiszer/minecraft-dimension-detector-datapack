@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:player_head",
+      "nbt": "{SkullOwner:{Id:[I;0,0,0,0],Properties:{textures:[{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY4NTY2ODg1NDY1NSwKICAicHJvZmlsZUlkIiA6ICJhNzdkNmQ2YmFjOWE0NzY3YTFhNzU1NjYxOTllYmY5MiIsCiAgInByb2ZpbGVOYW1lIiA6ICIwOEJFRDUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2FhM2VkMTQ3NDJiOTljYjM5ZTQyMzZkYjQ2NWQ2OTRhYjExMzBmNjU1MjI2NTVlODY4MWU1NDQzZWY1ZjJjYSIKICAgIH0KICB9Cn0=\"}]}}}"
+    },
+    "title": "Dimension Detector",
+    "description": [
+      {
+        "text": "Changes player's name colour based on the dimension they are in.\n",
+        "color": "white"
+      }
+    ],
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "pawek:root",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "function": "dim_status:info"
+  }
+}
